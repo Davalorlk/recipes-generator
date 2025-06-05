@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIMITLESS DISHES</title>
+    <link rel="icon" href="icon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="nav-container">
+       <img src="icon.png" alt="Icon" class="nav-icon">
+         <a href="home.html">HOME</a>
+        <a href="index.html">GENERATE RECIPES</a>    
+        <a href="AddRecipes.html">ADD RECIPES</a>
+         <a href="about.html">ABOUT US</a>
+         <img src="icon.png" alt="Icon" class="nav-icon">
+    </div>
+    <div class="container">
+        <h1>ADD A RECIPE</h1>
+        <form id="recipeForm">
+            <label for="name">User:</label>
+            <input type="text" id="user" required>
+
+            <label for="name">Recipe Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="image">Image URL:</label>
+            <input type="text" id="image" required>
+
+            <label for="ingredients">Ingredients (comma-separated):</label>
+            <input type="text" id="ingredients" required>
+
+            <label for="instructions">Instructions:</label>
+            <textarea id="instructions" required></textarea>
+
+            <button type="submit">Add Recipe</button>
+        </form>
+        <p id="message"></p>
+
+         <h2 style="text-align: center;">Contact Us</h2>
+        <p style="text-align: center;">Have questions or suggestions? Reach us at: <strong>contactsupport@limitlessdishes.site</strong></p>
+    </div>
+
+    <script src="add_recipe.js"></script>
+
+</body>
+</html>
