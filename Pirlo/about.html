@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIMITLESS DISHES</title>
+<link rel="icon" href="icon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+           body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.nav-icon {
+  width: 90px;
+  height: 90px;
+  vertical-align: middle;
+  margin-right: 6px;
+  border-radius: 50px;
+}
+
+.nav-container {
+    background-image: url('food.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.nav-container a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.nav-container a:hover {
+    background-color: #359804;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.teams{
+    margin-top: 80px;
+}
+
+.team-member {
+    text-align: center;
+    width: 200px;
+}
+
+.team-member img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.team-member.higher {
+    margin-top: 50px;/* Moves members up */
+}
+
+.team-member.lower {
+    margin-top: -50px; /* Moves members down */
+}
+
+    @media screen and (max-width: 600px) {
+ 
+    .nav-icon {
+  width: 30px;
+  height: 30px;
+}
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height:100%;
+    }
+    .nav-container a {
+        margin: 10px 0;
+    font-size: 12px;
+    padding: 0px 1px;
+    }
+.team {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Create auto-grid layout */
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.team-member {
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+}
+.teams{
+    margin-top: 20px;
+}
+.team-member.higher {
+    margin-top: 0px;
+}
+
+.team-member.lower {
+    margin-top: 0px; 
+}
+}
+
+        </style>
+</head>
+<body>
+     <div class="nav-container">
+         <img src="icon.png" alt="Icon" class="nav-icon">
+         <a href="home.html">HOME</a>
+        <a href="index.html">GENERATE RECIPES</a>    
+        <a href="AddRecipes.html">ADD RECIPES</a>
+         <a href="about.html">ABOUT US</a>
+         <img src="icon.png" alt="Icon" class="nav-icon">
+    </div>
+      <div class="about-container">
+        <h1>ABOUT US</h1>
+        <p>Welcome to LIMITLESS DISHES We are passionate about bringing you the best collection of Cameroonian and international recipes.</p>
+        <p>Our mission is to inspire food lovers with easy-to-follow recipes, cooking tips, and cultural insights into traditional dishes.</p>
+
+        <h2>Our Team</h2>
+        <div class="teams">
+        <div class="team">
+            <div class="team-member lower">
+                <img src="alan.jpg" alt="Founder" height="">
+                <h3>ALAN MOREL</h3>
+                <p>DEVELOPER</p>
+            </div>
+            <div class="team-member higher">
+                <img src="daytona.jpg" alt="Co-Founder" height="">
+                <h3>TONYE JUNIOR</h3>
+                <p>DEVELOPER</p>
+                
+            </div>
+            <div class="team-member lower">
+                <img src="atia.jpg" alt="Co-Founder">
+                <h3>NDI CHE ATIA</h3>
+                <p>DEVELOPER</p>
+                
+            </div>
+            <div class="team-member higher">
+                <img src="marc.jpg" alt="Co-Founder" height="">
+                <h3>MARC-DONALD</h3>
+                <p>SCRUM MASTER</p>
+                
+            </div>
+              <div class="team-member lower">
+                <img src="bryan.jpg" alt="Co-Founder" height="">
+                <h3>BRYAN GATLIN</h3>
+                <p>DEVELOPER</p>
+                
+            </div>
+            <div class="team-member higher">
+                <img src="abigael.jpg" alt="Co-Founder" height="">
+                <h3>NANGA ABIGAEL</h3>
+                <p>PRODUCT OWNER</p>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <h2>Contact Us</h2>
+        <p>Have questions or suggestions? Reach us at: <strong>contactsupport@limitlessdishes.site</strong></p>
+    </div>
+</body>
+</html>
