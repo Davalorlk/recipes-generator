@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIMITLESS DISHES</title>
+    <link rel="icon" href="icon.png" type="image/png">
+     <link rel="stylesheet" href="style.css">
+    <style>
+
+        body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+        .nav-icon {
+  width: 90px;
+  height: 90px;
+  vertical-align: middle;
+  margin-right: 6px;
+  border-radius: 50px;
+}
+        
+/* Hero Section */
+.hero {
+    background: url('food1.jpg') center/cover no-repeat;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+text-shadow: 2px 2px 8px rgba(69, 148, 12, 0.904);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.explore-btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #2eae15;
+    color: white;
+    border-radius: 5px;
+}
+
+.explore-btn:hover {
+    background-color: #0b8e18;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.about-text {
+    max-width: 500px;
+}
+
+.about-img {
+    width: 450px;
+    border-radius: 10px;
+}
+
+/* CTA Section */
+.cta {
+    background-color: #39af2e;
+    padding: 40px;
+    color: white;
+}
+
+.cta-btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgb(36, 207, 20);
+    color: #eff1ed;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #158430;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+}
+        @media screen and (max-width: 600px) {
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-img {
+        width: 100%;
+        max-width: 400px;
+    }
+    .nav-icon {
+  width: 30px;
+  height: 30px;
+}
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height:100%;
+    }
+    .nav-container a {
+        margin: 10px 0;
+    font-size: 12px;
+    padding: 0px 1px;
+    }
+}
+
+    </style>
+</head>
+<body>
+     <div class="nav-container">
+         <img src="icon.png" alt="Icon" class="nav-icon">
+         <a href="home.html">HOME</a>
+        <a href="index.html">GENERATE RECIPES</a>    
+        <a href="AddRecipes.html">ADD RECIPES</a>
+         <a href="about.html">ABOUT US</a>
+         <img src="icon.png" alt="Icon" class="nav-icon">
+    </div>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>WELCOME TO LIMITLESS DISHES</h1>
+            <p>Discover delicious recipes from around the world and bring the joy of cooking into your home.</p>
+            <a href="index.html" class="explore-btn">Explore Recipes</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="about-text">
+            <h2>Our Mission</h2>
+            <p>Limitless Recipes is here to inspire food lovers with easy-to-follow recipes, cooking tips, and a diverse collection of dishes from different cultures.</p>
+        </div>
+        <img src="food1.jpg" alt="Delicious food" class="about-img">
+    </section>
+ <h2 style="text-align: center;">Contact Us</h2>
+        <p style="text-align: center;">Have questions or suggestions? Reach us at: <strong>contactsupport@limitlessdishes.site</strong></p>
+    <!-- CTA Section -->
+    <section class="cta">
+        <h2>Have a Recipe to Share?</h2>
+        <p>Join our community and showcase your favorite recipes to the world.</p>
+        <a href="AddRecipes.html" class="cta-btn">Share Your Recipe</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 LIMITLESS RECIPES | Made with ❤️ for food lovers</p>
+    </footer>
+    </body>
+</html>
